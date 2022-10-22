@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        Mark {
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais forma</h1>
+        <h2>Negrito / Destaque</h2>
+            <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica)</p>
+            <p>Nesta frase temos um <strong>termo em destaque</strong> ususando a tag STRONG (semântica)</p>
+        <h2>Itálico / Ênfase</h2>
+            <p>Nesta frase, temos um <i>termo em italico</i> usando a tag I (não semântica)</p>
+            <p>Nesta frase, temos um <em>termo em destaque</em> usando a tag EM (semântica)</p>
+        <h2>Texto marcado</h2>
+            <p>Podemos criar tambem <mark style="background-color: lime;">um texto marcado</mark> usando a tag MARK.</p>
+            <p>Podemos criar tambem <mark>um texto marcado</mark> usando a tag MARK.</p>
+            <p>Podemos criar tambem <mark>um texto marcado</mark> usando a tag MARK.</p>
+        <h2>Texto grande e pequeno</h2>
+            <p>Estramos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+            <!--Big se tornou obsoleto-->
+        <h2>Texto deletado</h2>
+            <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado</p>
+        <h2>Texto Inserido</h2>
+            <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
+            <p>Existe tambem <u>o sublinhado</u> com a tag U (não semântica)</p>
+        <h2>Texto sobrescrito</h2>
+            <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+        <h2>Texto subscrito</h2>
+            <p>Para iserir cois do tipo H<sub>2</sub>O</p>
+    <h1>Outras formatações</h1>
+        <h2>Código Fonte</h2>
+            <p>O comando <code>document.getElementbyId('test')</code> é escrito em linguagem JavaScript</p>
+            <pre>
+                <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0;
+        print(f'O número {num}é PAR')
+    else
+        print(f'O número {num} é ÍMPAR)
+    print('Fim do programa')
+                </code>
+            </pre>
+        <h2>Citações</h2>
+            <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+        <h2>Citações completas</h2>
+            <p>Segundo os Segredos Arcanos:</p>
+            <blockquote cite="www.visualstudiocode.com">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus modi odit atque natus illum ab in amet. Neque inventore deleniti quo, sequi nihil porro, eveniet quasi in atque error explicabo!
+            </blockquote>
+        <h2>Abreviações</h2>
+            <p>
+                Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!
+            </p>
+        <h2>Texto invertido</h2>
+            <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>

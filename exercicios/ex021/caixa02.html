@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 1px 3px rgb(0, 0, 0, 0.65)
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px 5px;
+            text-indent: 5px;
+            box-shadow: 0px 0px 0px rgb(0, 0, 0, 0.65)
+        }
+
+        article > h2 {
+            margin: 0px;
+            text-align: center;
+            text-indent: 0px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+            text-align: center;
+            text-indent: 0px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam libero, labore enim voluptatibus quo fuga ratione! Rerum doloremque rem fuga? Ipsum, minus. Distinctio assumenda nobis ea! Asperiores aut eius nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fugiat distinctio eius praesentium quam.</p>
+                
+                <p>Vero, tenetur deleniti praesentium dolore ex a. Possimus commodi impedit rerum eos nobis asperiores ex minus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus facilis omnis eveniet nostrum nemo! Ipsa aliquid optio reiciendis magnam neque odit cum obcaecati accusantium sint perspiciatis, itaque odio pariatur cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat omnis voluptas mollitia eum voluptatem possimus molestiae explicabo est suscipit culpa quo, magnam illum iure, nihil, ut error quisquam odio. Corporis!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Notícia sobre São Paulo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem totam dolorem dolor beatae expedita iste dolorum, veniam voluptates illum eum eligendi natus quod quis. Possimus necessitatibus nulla expedita consequatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nobis iste! Tenetur vitae quia deleniti dicta distinctio quaerat quos aliquam aperiam, magnam eum voluptates a sit sint?</p>
+
+                <p>Libero, ducimus iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ut voluptates harum, autem impedit commodi suscipit minima mollitia, nesciunt explicabo eveniet tenetur dolorum culpa expedita illo laborum necessitatibus quo ea. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis odit repellat molestiae distinctio molestias perspiciatis ex consequuntur nam eligendi sint placeat, labore similique quod impedit sunt, vero exercitationem quaerat facere.</p>
+                <aside>
+                    <p>Artigo escrito por André Coelho</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <strong>InformaçõesBrasileiras</strong><p>
+    </footer>
+</body>
+</html>
